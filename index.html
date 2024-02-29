@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>New Tab Notes Chrome Extension</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+  <link rel="stylesheet" href="css-global.css">
+  <link rel="stylesheet" href="css-landing.css">
+</head>
+
+<body>
+  <nav>
+    <div class="logo"></div>
+    <ul class="menu">
+      <li class="menu__item">
+        <a href="https://chromewebstore.google.com/detail/new-tab-notes/ipkihanjobiajblamocijadicanfagpj"
+          class="button--secondary">
+          <b>ADD TO CHROME</b> - IT'S FREE
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div class="hero">
+    <h1 class="hero__title">New Tab Notes</h1>
+    <p class="hero__description">Transform your new tab page into a clean, distraction-free notepad.</p>
+    <div style="margin-bottom: 2em;">
+      <div>
+        <a href="https://chromewebstore.google.com/detail/new-tab-notes/ipkihanjobiajblamocijadicanfagpj"
+          class="button--primary"><b>ADD TO CHROME</b> - it's free!</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero__screen">
+    <img src="chrome-new-tab-notes-extension.png" />
+    <div class="hero__screen_text">
+      <b>🔐 Full privacy</b>: Your notes are saved and synced by the browser! <b>No account
+        needed!</b>
+    </div>
+    <div style="margin: 1em auto;text-align: center;">⭐⭐⭐⭐⭐</div>
+  </div>
+  <div class="features">
+    <div class="wrapper">
+      <div class="feature">
+        <div class="feature__item">
+          <h3 class="section__title">✨ Rich Text Formatting</h3>
+          <p>Use rich text formatting with markdown and keyboard shortcuts.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">🔄 Synced and Auto-saved</h3>
+          <p>Securely stored in your browser, instantly saved and synced across your devices.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">✂️ Copied Text Formatted</h3>
+          <p>Copied text from websites and other sources will be neatly formatted.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">📝 Save to Multiple Formats</h3>
+          <p>Download your notes to Markdown, HTML or plain text formats.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">🔍 Zoom Text and Customize</h3>
+          <p>Customize fonts and adjust zoom preferences to your needs.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">🌓 Dark and Light Themes</h3>
+          <p>Toggle between Dark and Light theme modes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="keybinding">
+      <h2>Markdown auto format</h2>
+      <p>Use markdown-like syntax to seamlessly apply formatting as you type, for example:</p>
+      <ul class="keybinding__detail">
+        <li>Type <strong><code>**</code></strong> or <strong><code>__</code></strong> on either side of your text to add
+          **<strong>bold</strong>** mark.</li>
+        <li>Type <strong><code>*</code></strong> or <strong><code>_</code></strong> on either side of your text to add
+          *<i>italic</i>*<i> </i>mark.</li>
+        <li>Type <strong><code>`</code></strong> on either side of your text to add `<code>inline code mark</code>`.
+        </li>
+        <li>Type <strong><code>~~</code></strong> on either side of your text to add ~~<s>strikethrough</s>~~ mark.</li>
+        <li>Type <code>*</code>, <code>-</code>&nbsp; or &nbsp;<code>+</code> and then hit <kbd
+            class="keybinding__label">space</kbd> to create a bulleted list.</li>
+        <li>Type <strong><code>1.</code></strong>&nbsp; or &nbsp;<strong><code>1)</code></strong> and then hit <kbd
+            class="keybinding__label">space</kbd> to create a numbered list.</li>
+        <li>Type <strong><code>&gt;</code></strong> and then hit <kbd class="keybinding__label">space</kbd> to create a
+          block quote.</li>
+        <li>Type <strong><code>#</code></strong> and then hit <kbd class="keybinding__label">space</kbd> to create an H1
+          heading.</li>
+        <li>Type <strong><code>##</code></strong> and then hit <kbd class="keybinding__label">space</kbd> to create an
+          H2 sub-heading.</li>
+        <li>Type <strong><code>###</code></strong> and then hit <kbd class="keybinding__label">space</kbd> to create an
+          H3 sub-heading, etc...</li>
+        <li>Type <strong><code>---</code></strong> to create a horizontal rule.</li>
+        <li>Type <strong><code>```</code></strong> to create a code block.</li>
+      </ul>
+    </div>
+    <div class="keybinding">
+      <h2>Keyboard shortcuts</h2>
+      <ul class="keybinding__detail">
+        <li>Format text as <strong>bold</strong> <kbd class="keybinding__label">Ctrl+B</kbd>, <i>italic</i> <kbd
+            class="keybinding__label">Ctrl+I</kbd>,
+          <u>underline</u> <kbd class="keybinding__label">Ctrl+U</kbd>, <s>strike</s> <kbd
+            class="keybinding__label">Ctrl+Shift+X</kbd>
+        </li>
+        <li><mark>Highlight text</mark> with <kbd class="keybinding__label">Ctrl+Shift+H</kbd> or make it embossed with
+          <kbd class="keybinding__label">Ctrl+Shift+K</kbd>.
+        </li>
+        <li>Just type an URL like <a href="https://newtabnotes.com" target="_blank">https://newtabnotes.com</a> and hit
+          space to add a link, or use <kbd class="keybinding__label">Ctrl+K</kbd>.</li>
+        <li>Use standard <kbd class="keybinding__label">Ctrl+Z</kbd> for undo and <kbd
+            class="keybinding__label">Ctrl+Y</kbd> for redo.</li>
+        <li>For emojis hit <kbd class="keybinding__label">Win+Period</kbd>.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="changelog">
+    <div class="wrapper">
+      <h3 class="section__title">Latest updates and changes</h3>
+      <div class="changelog__item">
+        <div class="changelog__meta">
+          <h4 class="changelog__title">v1.4</h4>
+          <small class="changelog__date">2 Feb 2024</small>
+        </div>
+        <div class="changelog__detail">
+          <ul>
+            <li>New fonts added and font size support</li>
+            <li>Improved zoom and full screen option</li>
+            <li>Highlight text formatting added</li>
+          </ul>
+        </div>
+      </div>
+      <div class="changelog__item">
+        <div class="changelog__meta">
+          <h4 class="changelog__title">v1.3</h4>
+          <small class="changelog__date">17 Jan 2024</small>
+        </div>
+        <div class="changelog__detail">
+          <ul>
+            <li>Export as Markdown, HTML or formatted text</li>
+            <li>Top toolbar added to extension</li>
+          </ul>
+        </div>
+      </div>
+      <div class="changelog__item">
+        <div class="changelog__meta">
+          <h4 class="changelog__title">v1.2</h4>
+          <small class="changelog__date">5 Jan 2024</small>
+        </div>
+        <div class="changelog__detail">
+          <ul>
+            <li>Bug fixes and improvements</li>
+            <li>Sync notes across devices</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">New Tab Notes is a free Chrome Extension created by <a href="https://wordfields.com/"
+      target="_blank" class="link link--light">WordFields</a>.</footer>
+</body>
+</html>
