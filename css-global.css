@@ -11,6 +11,7 @@
   --dark-gray-color: #444; 
   --bg-color: #F8F8FA;
   --code-bg-color: #f4fbff;
+  --link-color: #0b57d0;
 }
 
 /* normalized */
@@ -31,8 +32,9 @@ p {
 }
 
 a, a:hover {
-  text-decoration: none;
-  color: var(--primary-color);
+  font-weight: 500;
+  text-decoration: underline;
+  color: var(--accent-color);
 }
 
 hr {
